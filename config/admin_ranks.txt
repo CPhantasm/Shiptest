@@ -44,9 +44,9 @@ Include = @ SPAWN VAREDIT BAN
 Exclude =
 Edit =
 
-Name = Admin
-Include = @ STEALTH SOUND DEBUG POSSESS POLL BUILD SERVER FUN
-Exclude =
+Name = Mothmin
+Include = @ POSSESS BUILD SERVER FUN
+Exclude = AUTOADMIN BAN
 Edit =
 
 Name = Senior Admin

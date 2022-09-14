@@ -245,7 +245,7 @@ DYNAMIC_CONFIG_ENABLED
 
 ## RANDOM EVENTS ###
 ## Comment this out to disable random events during the round.
-ALLOW_RANDOM_EVENTS
+#ALLOW_RANDOM_EVENTS
 
 ## Multiplier for earliest start time of dangerous events.
 ## Set to 0 to make dangerous events avaliable from round start.
@@ -424,13 +424,13 @@ ROUNDSTART_RACES human
 
 ## Races that are strictly worse than humans that could probably be turned on without balance concerns
 ROUNDSTART_RACES lizard
-#ROUNDSTART_RACES fly
+ROUNDSTART_RACES fly
 ROUNDSTART_RACES moth
 ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
 ROUNDSTART_RACES ipc
 ROUNDSTART_RACES felinid
-#ROUNDSTART_RACES squid
+ROUNDSTART_RACES squid
 ROUNDSTART_RACES kepori
 ROUNDSTART_RACES rachnid
 ROUNDSTART_RACES vox
@@ -566,16 +566,16 @@ ECONOMY
 ## Overmap Settings ##
 
 ## Put max amount of different event clusters you want to spawn here
-MAX_OVERMAP_EVENT_CLUSTERS 6
+MAX_OVERMAP_EVENT_CLUSTERS 8
 
 ## Put the maximum amount of overmap events here
-MAX_OVERMAP_EVENTS 50
+MAX_OVERMAP_EVENTS 75
 
 ## Put the maximum amount of dynamic overmap locations here
-MAX_OVERMAP_DYNAMIC_EVENTS 10
+MAX_OVERMAP_DYNAMIC_EVENTS 15
 
 ## Size of the overmap squared
-OVERMAP_SIZE 12
+OVERMAP_SIZE 24
 
 ## Which overmap generator to use
 ## Valid values are: "random", "solar_system"
