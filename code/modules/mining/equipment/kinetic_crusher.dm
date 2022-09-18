@@ -731,6 +731,7 @@
 	Though eventually replaced with concussive blasts, the ever-practical NT designed a second mining tool. \
 	Only a few were ever produced, mostly for NT research institutions, and they are a valulable relic in the postwar age."
 	slowdown = 0.5//hevy
+	obj_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	attack_verb = list("mashed", "flattened", "bisected", "eradicated","destroyed")
 
 /obj/item/kinetic_crusher/old/examine(mob/user)
