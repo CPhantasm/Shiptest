@@ -19,7 +19,7 @@
 	attack_verb = list("smashed", "crushed", "cleaved", "chopped", "pulped")
 	sharpness = IS_SHARP
 	actions_types = list(/datum/action/item_action/toggle_light)
-	obj_flags = UNIQUE_RENAME
+	obj_flags = UNIQUE_RENAME | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	light_system = MOVABLE_LIGHT
 	light_range = 5
 	light_on = FALSE
