@@ -769,7 +769,7 @@
 	hitsound = 'sound/weapons/blade1.ogg'
 	attack_verb = list("sliced", "bisected", "diced", "chopped", "filleted")
 	sharpness = IS_SHARP
-	obj_flags = UNIQUE_RENAME
+	obj_flags = UNIQUE_RENAME | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	light_color = "#fb6767"
 	light_system = MOVABLE_LIGHT
 	light_range = 3
