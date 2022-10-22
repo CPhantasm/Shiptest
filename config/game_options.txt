@@ -569,13 +569,13 @@ ECONOMY
 MAX_OVERMAP_EVENT_CLUSTERS 8
 
 ## Put the maximum amount of overmap events here
-MAX_OVERMAP_EVENTS 75
+MAX_OVERMAP_EVENTS 60
 
 ## Put the maximum amount of dynamic overmap locations here
-MAX_OVERMAP_DYNAMIC_EVENTS 15
+MAX_OVERMAP_DYNAMIC_EVENTS 30
 
 ## Size of the overmap squared
-OVERMAP_SIZE 24
+OVERMAP_SIZE 32
 
 ## Which overmap generator to use
 ## Valid values are: "random", "solar_system"
